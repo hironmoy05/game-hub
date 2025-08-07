@@ -2,13 +2,6 @@ import { useEffect, useState } from "react"
 import apiClient from "../services/api-client"
 import { CanceledError } from "axios"
 
-interface Data {
-  id: number,
-  name: string,
-  slug: string,
-  image_background: string,
-}
-
 interface FetchResponse<T> {
   count: number,
   results: T[]
