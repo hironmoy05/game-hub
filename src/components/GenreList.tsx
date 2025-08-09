@@ -27,9 +27,7 @@ const GenreList = ({ selectedGenre, onSelectGenre }: Props) => {
                 </Button>
               </HStack>
             </ListItem>
-          )
-          )
-        }
+          ))}
       </List >
     </>
   )
