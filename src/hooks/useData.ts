@@ -3,7 +3,7 @@ import apiClient from "../services/api-client"
 import { CanceledError, type AxiosRequestConfig } from "axios"
 import type { GameQuery } from "../App"
 
-interface FetchResponse<T> {
+export interface FetchResponse<T> {
   count: number,
   results: T[]
 }
