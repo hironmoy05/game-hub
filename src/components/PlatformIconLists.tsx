@@ -3,9 +3,8 @@ import { FaWindows, FaPlaystation, FaXbox, FaApple, FaLinux, FaAndroid } from 'r
 import { MdPhoneIphone } from "react-icons/md"
 import { SiNintendo } from "react-icons/si"
 import { BsGlobe } from "react-icons/bs"
-
-import type { Platform } from "../hooks/useGames"
 import type { IconType } from "react-icons"
+import type { Platform } from "../hooks/usePlatforms"
 
 interface Props {
   platforms: Platform[]
