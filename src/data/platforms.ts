@@ -1,4 +1,8 @@
-export default [
+export default {
+    "count": 14,
+    "next": null,
+    "previous": null,
+    "results": [
         {
             "id": 1,
             "name": "PC",
@@ -149,8 +153,8 @@ export default [
                     "id": 3,
                     "name": "iOS",
                     "slug": "ios",
-                    "games_count": 77401,
-                    "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg",
+                    "games_count": 77404,
+                    "image_background": "https://media.rawg.io/media/games/997/997ab4d67e96fb20a4092383477d4463.jpg",
                     "image": null,
                     "year_start": null,
                     "year_end": null
@@ -166,8 +170,8 @@ export default [
                     "id": 21,
                     "name": "Android",
                     "slug": "android",
-                    "games_count": 52465,
-                    "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg",
+                    "games_count": 52468,
+                    "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg",
                     "image": null,
                     "year_start": null,
                     "year_end": null
@@ -608,3 +612,4 @@ export default [
             ]
         }
     ]
+}
