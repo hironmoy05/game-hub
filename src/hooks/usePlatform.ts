@@ -1,8 +1,8 @@
-import useGenre from "./useGenres"
+import usePlatforms from "./usePlatforms"
 
 const usePlatform = (id?: number) => {
-  const { data: genres } = useGenre()
-  return genres?.results.find(g => g.id === id)
+  const { data: platforms } = usePlatforms()
+  return platforms?.results.find(p => p.id === id)
 }
 
 export default usePlatform
