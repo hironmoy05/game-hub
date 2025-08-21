@@ -8,7 +8,7 @@ const SearchInput = () => {
   const setSearchText = useGameQueryStore(s => s.setSearchText)
 
   return (
-    <form className='form' onSubmit={(e) => {
+    <form style={{ width: '100%' }} className='form' onSubmit={(e) => {
       e.preventDefault();
       if (ref.current) setSearchText(ref.current.value);
     }}>
