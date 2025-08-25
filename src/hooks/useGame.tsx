@@ -1,12 +1,6 @@
 import { useQuery } from "@tanstack/react-query"
 import type Game from "../entities/Game"
 import APIClient from "../services/api-client"
-export interface Genre {
-  id: number,
-  name: string,
-  slug: string,
-  image_background: string,
-}
 
 const apiClient = new APIClient<Game>('/games')
 
